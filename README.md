@@ -21,5 +21,6 @@ What's missing:
 - Garbage collector.
 - Object synchronization  (Thread.wait and synchronized blocks).
 - Most of the java core library hasn't been implemented.
+- Other stuff I don't remember.
 
 Just enough core library support has been implemented to support a demo of a multi-threaded program printing to a display.  More information on how to use this JVM will be forthcoming.
