@@ -16,6 +16,7 @@ Features of this JVM for bare-metal ARM Cortex-M:
 - Heap-based object and frame allocation.
 - Compiled Java class files must be processed into a special flash image with the 'ClassPackager' tool before loading to the target.
 - VM currently implemented in the 'old style' ARM assembly format.  
+- Class files are partially 'pre-linked' during the flash image preparation phase with ClassPackager.  Pre-linking enables faster lookups of inherited methods and other artifacts in the constant pools like strings.
 
 What's missing:
 - Garbage collector.
