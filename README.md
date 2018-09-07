@@ -13,7 +13,7 @@ Features of this JVM for bare-metal ARM Cortex-M:
 - Entire VM written in pure assembly.  Basic java core library (e.g. java.lang) is available and custom implemented in, of course, Java.
 - Most bytecodes implemented, including the hard ones like invokevirtual, invokestatic, tablelookup.
 - Multi-threading! Thread class' start, sleep supported.
-- Heap-based object and stack allocation.
+- Heap-based object and frame allocation.
 - Compiled Java class files must be processed into a special flash image with the 'ClassPackager' tool before loading to the target.
 - VM currently implemented in the 'old style' ARM assembly format.  
 
